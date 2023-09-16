@@ -1,0 +1,193 @@
+/* card */
+
+.feu{
+    display: inline-block;
+    margin: 40px 25px 0px 40px;
+    align-items: center;
+}
+    
+    .lo{
+      width: 35px;
+     height: 17px;
+
+    }
+
+    .imdb{
+      display: flex;
+    }
+    
+    .movie-title{
+      width: 200px;
+    }
+    
+    img{
+        width: 250px;
+        height: 490px;
+       display: flex;
+    }
+    
+    @media screen and (max-width: 767px) {
+        .feu {
+          max-width: 100%;
+        }
+      
+        h2 {
+          max-width: 100%;
+        }
+      
+        .movielist {
+          max-width: 100%;
+          gap: 10px;
+        }
+      
+        .movie-card {
+          flex: 1 0 calc(50% - 10px);
+          margin-right: 10px;
+          margin-bottom: 10px;
+        }
+      }
+    
+    /* navigator */
+    .logo1{
+      width: 50px;
+height: 50px;
+padding: 0;
+
+    }
+.logo2{
+  width: 16px;
+  height: 16px;
+}
+
+input{
+  border: none;
+  background: transparent;
+  color: white;
+}
+
+    .nav{
+        display: flex;
+        gap: 25rem ;
+        align-items:  center;
+        margin-left: 4rem ;
+        width: 1440px;
+        height: 80px ;
+        top: 298px;
+        left: 1380px;
+        border-radius: 6px;
+        color: aliceblue;
+      
+    }
+    
+    header{
+        background-color: rgb(15, 14, 14);
+    }
+    
+    
+    h1{
+        font-family: DM Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 404px;
+    height: 112px;
+    
+    
+    }
+
+b{
+  display: flex;
+  align-items: center;
+}
+
+    h3{
+      display: flex;
+      align-items: center;
+    }
+    
+     
+    
+    .dis{
+        width: 404px;
+        height: 285px;
+        top: 158px;
+        left: 98px;
+        gap: 16px;
+        margin:6rem;
+    }
+    
+    button{
+        width: 169px;
+    height: 36px;
+    padding: 6px, 16px, 6px, 16px;
+    border-radius: 6px;
+    gap: 8px;
+     background: rgba(190, 18, 60, 1);
+     margin-top: 5px;
+     display: flex;
+     align-items: center;
+    }
+    
+    .content{
+        width: 302px;
+       height: 72px;
+       font-family: DM Sans;
+       font-size: 14px;
+       font-weight: 500;
+       line-height: 18px;
+       letter-spacing: 0em;
+       text-align: left;   
+    }
+
+    /* carousel */
+
+    .play{
+      width: 20px;
+height: 20px;
+
+    }
+
+    .carousel-page{
+        position:absolute;
+        bottom: 25%;
+        margin: 50px;
+        width: 50%;
+    
+        flex-direction: column;
+        align-items: column;
+        gap: 16px;
+      }
+      
+      .poster-img{
+        width: 1440px;
+        height: 600px;
+        flex-shrink: 0;
+      }
+    
+     .title{
+        color: white;
+     }
+    
+    
+     .vote{
+        color: white;
+     }
+    
+    
+     .overview{
+        color: white;
+     }
+    
+    
+     /* footer */
+    
+     .footer{
+      display: flex;
+      text-align: center;
+      gap: 3rem;
+      margin-left: 350px;
+     }
+    
+    
