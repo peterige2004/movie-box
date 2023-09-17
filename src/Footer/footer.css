@@ -1,0 +1,24 @@
+.footer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 70px;
+}
+.footer-text{
+  display: flex;
+  padding: 20px;
+}
+.footer-text p{
+  padding-right: 20px;
+}
+.footer-img img{
+  padding-right: 20px;
+  height: 27px;
+}
+.footer-info{
+  color: #6B7280;
+}
