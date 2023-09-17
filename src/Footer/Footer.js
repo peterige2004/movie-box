@@ -5,10 +5,7 @@ function Footer() {
   return (
     <div className='footer'>
         <div className='footer-img'>
-            <img src='../Images/fa-brands_facebook-square.png'></img>
-            <img src='../Images/fa-brands_youtube.png'></img>
-            <img src='../Images/fa-brands_twitter.png'></img>
-            <img src='../Images/fa-brands_instagram.png'></img>
+            
         </div>
         <div className='footer-text'>
             <p>Conditions of Use</p>
