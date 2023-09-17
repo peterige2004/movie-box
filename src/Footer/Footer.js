@@ -16,7 +16,7 @@ function Footer() {
             <p>Press Room</p>
         </div>
 
-        <p className='footer-info'>© 2023 MovieBox by Tella Oyinkansola</p>
+        <p className='footer-info'>© 2023 MovieBox by Peter Adeyemi Ige</p>
     </div>
   )
 }
